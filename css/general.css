@@ -1,11 +1,73 @@
 :root {
+  --hover-color: rgba(0, 0, 0, 0.05);
 }
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
+  font-size: 62.5%;
+  font-family: "Rubik", serif;
 }
 
 body {
+}
+
+.flex {
+  display: flex;
+}
+.alignJ {
+  justify-content: center;
+}
+.alignI {
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-gap-small {
+  gap: 0.6rem;
+}
+.flex-gap-medium {
+  gap: 1.2rem;
+}
+.flex-gap-big {
+  gap: 2.4rem;
+}
+.flex-gap-huge {
+  gap: 3.2rem;
+}
+
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.channel-pfp {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.youtube-text {
+  font-family: "League Gothic", serif;
+  font-size: 2.8rem;
+}
+
+.nav-pfp {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
 }

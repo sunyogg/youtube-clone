@@ -1,0 +1,70 @@
+.video-block {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: flex-end;
+  width: 20rem;
+  height: 10rem;
+  padding: 10px;
+  border-radius: 9px;
+  background-image: url(/img/openai.jpeg);
+  background-size: contain;
+  cursor: pointer;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.icon:hover {
+}
+
+.video-block:hover .icon {
+  opacity: 1;
+  transform: translate(0rem, -2px);
+}
+
+.video-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.channel-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-weight: 500;
+}
+
+.icon-more {
+  fill: grey;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+}

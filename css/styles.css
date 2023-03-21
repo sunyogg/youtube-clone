@@ -1,1 +1,155 @@
+/*****************************
+SEARCH HEAD 
+******************************/
+.search-head {
+  position: fixed;
+  height: 5.6rem;
+  width: 98%;
+  justify-content: space-between;
+  z-index: 999;
+}
 
+.yt-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  display: inline-block;
+}
+
+.search {
+  border: none;
+  width: 40rem;
+  height: 3.6rem;
+  padding: 1.2rem;
+  border: 0.5px solid rgb(182, 184, 184);
+  border-top-left-radius: 9rem;
+  border-bottom-left-radius: 9rem;
+}
+
+.search-box {
+  display: flex;
+  gap: 0;
+}
+
+.search-icon-box {
+  background-color: rgb(245, 245, 245);
+  border: 0.5px solid rgb(182, 184, 184);
+  border-collapse: collapse;
+  height: 3.6rem;
+  padding: 1.2rem 1.8rem;
+  border-top-right-radius: 9rem;
+  border-bottom-right-radius: 9rem;
+  transition: all 0.3s;
+}
+
+.search-icon-box:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.search-nav-icon-box {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.search-nav-icon-box:hover {
+  background-color: var(--hover-color);
+}
+
+.search-nav-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.search-nav-icon-box:hover {
+  background-color: var(--hover-color);
+}
+
+/*****************************
+NAV 
+******************************/
+.navigation {
+  position: fixed;
+  height: calc(100vh - 4.5rem);
+  width: 18rem;
+  margin-top: 5.6rem;
+  overflow-y: scroll;
+  margin-left: 1.2rem;
+}
+
+.navigation::-webkit-scrollbar {
+  display: none;
+}
+
+.kids {
+  transform: rotate(-8deg);
+}
+
+.first-nav,
+.second-nav,
+.third-nav,
+.fourth-nav,
+.fifth-nav,
+.sixth-nav,
+.seventh-nav {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+
+.nav-title {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  padding: 0.8rem 0rem 0.8rem 0rem;
+  border-radius: 12px;
+  color: black;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: var(--hover-color);
+}
+
+.nav-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.nav-link-text {
+  font-size: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 0.1px solid rgb(182, 184, 184);
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+/*****************************
+FOOTER 
+******************************/
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.6rem;
+}
+.copyright {
+  margin-bottom: 6.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: grey;
+}
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: underline;
+}
