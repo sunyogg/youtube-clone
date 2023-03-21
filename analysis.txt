@@ -1,11 +1,18 @@
 - YouTube can be divided into 2 sections :
   -- The section that is fixed, it can be further divided into 2 sections :
     --- Left nav section :
-        ---- A simple flexbox container of svg icons and hover effects.
+        ----- futher divided into different sections containing flex container:
+                 ----- home shorts subscription
+                 ----- library history yourVideos watch later...
+                 ----- subscription
+                 ----- explore
+                 ----- more from youtube
+                 ----- settings report help feedback
+                 ----- footer
 
     --- Top search section :
        ---- 2 Flexbox container :
-            ----- youtube logo, search, mic, livestream, notification, profile.
+            ----- menu youtube logo, search, mic, livestream, notification, profile.
             ----- flex container containing tags.
 
   -- The section that is not fixed - The video grid.
@@ -244,11 +251,6 @@ width="100" height="100"
 viewBox="0 0 64 64">
 <path fill="#060000" d="M32,10c12.131,0,22,9.869,22,22s-9.869,22-22,22s-22-9.869-22-22S19.869,10,32,10z M42.362,28.878	c0.781-0.781,0.781-2.047,0-2.828c-0.781-0.781-2.047-0.781-2.828,0l-9.121,9.121l-5.103-5.103c-0.781-0.781-2.047-0.781-2.828,0	c-0.781,0.781-0.781,2.047,0,2.828l6.517,6.517C29.374,39.789,29.883,40,30.413,40s1.039-0.211,1.414-0.586L42.362,28.878z"></path>
 </svg>
-
-
------------------------------------
-
-
 
 
 -----------------------------------
