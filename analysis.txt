@@ -265,8 +265,19 @@ DIFFICULTIES :
 -----------------------------------
 LEARNINGS :
 
-white-space: nowrap;
+  - white-space: nowrap;
 
-.tags:before 
-.tags:after 
-.tags:hover:after
+  - .tags:before 
+    .tags:after 
+    .tags:hover:after
+
+  - Margin top of an element was somehow affecting the fixed elements located
+    at the top of that element.
+
+  - fixed elements won't affect the size of parent elements, as they are taken
+    'out of flow' and are 'floating' at the top of that element.
+
+  - While working with grid, try to give the grid items a definite dimension
+    at start and then when everything is working fine, you can give them flexible
+    dimensions.
+
