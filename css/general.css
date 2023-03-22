@@ -37,6 +37,9 @@ FLEXBOX
   display: flex;
   flex-direction: column;
 }
+.flex-gap-tiny {
+  gap: 0.3rem;
+}
 .flex-gap-small {
   gap: 0.6rem;
 }
@@ -90,6 +93,10 @@ GRID
 /*****************************
 ICONS 
 ******************************/
+.nav-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
 
 .icon-fix {
   stroke: black;
