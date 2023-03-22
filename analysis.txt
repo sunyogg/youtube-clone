@@ -264,3 +264,9 @@ DIFFICULTIES :
 
 -----------------------------------
 LEARNINGS :
+
+white-space: nowrap;
+
+.tags:before 
+.tags:after 
+.tags:hover:after
