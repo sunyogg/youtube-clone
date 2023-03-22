@@ -1,3 +1,7 @@
+/*****************************
+CONTAINER 
+******************************/
+
 :root {
   --hover-color: rgba(0, 0, 0, 0.05);
 }
@@ -15,6 +19,10 @@ html {
 
 body {
 }
+
+/*****************************
+FLEXBOX 
+******************************/
 
 .flex {
   display: flex;
@@ -41,6 +49,13 @@ body {
 .flex-gap-huge {
   gap: 3.2rem;
 }
+.wrapper {
+  display: inline-block;
+}
+
+/*****************************
+GRID 
+******************************/
 
 .grid {
   display: grid;
@@ -70,4 +85,17 @@ body {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+}
+
+/*****************************
+ICONS 
+******************************/
+
+.icon-fix {
+  stroke: black;
+}
+
+.icon-fix-more {
+  stroke: black;
+  stroke-width: 12;
 }
