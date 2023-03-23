@@ -106,3 +106,13 @@ ICONS
   stroke: black;
   stroke-width: 12;
 }
+
+.search-nav-icon-box:hover {
+  cursor: pointer;
+}
+
+.youtube-link:link,
+.youtube-link:visited {
+  text-decoration: none;
+  color: black;
+}
