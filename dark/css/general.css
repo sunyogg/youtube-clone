@@ -1,0 +1,121 @@
+/*****************************
+CONTAINER 
+******************************/
+
+:root {
+  --hover-color: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", serif;
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+/*****************************
+FLEXBOX 
+******************************/
+
+.flex {
+  display: flex;
+}
+.alignJ {
+  justify-content: center;
+}
+.alignI {
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-gap-tiny {
+  gap: 0.3rem;
+}
+.flex-gap-small {
+  gap: 0.6rem;
+}
+.flex-gap-medium {
+  gap: 1.2rem;
+}
+.flex-gap-big {
+  gap: 2.4rem;
+}
+.flex-gap-huge {
+  gap: 3.2rem;
+}
+.wrapper {
+  display: inline-block;
+}
+
+/*****************************
+GRID 
+******************************/
+
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.channel-pfp {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.youtube-text {
+  font-family: "League Gothic", serif;
+  font-size: 2.8rem;
+}
+
+.nav-pfp {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+/*****************************
+ICONS 
+******************************/
+.nav-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: white;
+}
+
+.icon-fix {
+  stroke: white;
+}
+
+.icon-fix-more {
+  stroke: white;
+  stroke-width: 12;
+}
+
+.search-nav-icon-box:hover {
+  cursor: pointer;
+}
+
+.youtube-link:link,
+.youtube-link:visited {
+  text-decoration: none;
+  color: white;
+}
